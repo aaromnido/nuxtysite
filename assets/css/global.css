@@ -27,3 +27,7 @@ body {
   letter-spacing: .02em;
   text-rendering: optimizeLegibility;
   color: #081b33; }
+
+a {
+  color: #e54a35;
+  text-decoration: none; }
