@@ -30,4 +30,10 @@ body {
 
 a {
   color: #e54a35;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out; }
+
+a:hover {
+  color: #081b33; }
