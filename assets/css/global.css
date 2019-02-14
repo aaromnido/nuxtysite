@@ -105,6 +105,9 @@ h4 {
 .mb-6 {
   margin-bottom: 6vw; }
 
+.text-center {
+  text-align: center; }
+
 .content-full {
   width: 100%; }
 
@@ -124,3 +127,7 @@ h4 {
     margin-left: 0; }
   .column-3 .column:last-child {
     margin-right: 0; }
+
+.one-centered-column {
+  max-width: 55vw;
+  margin: auto; }

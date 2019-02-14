@@ -71,6 +71,12 @@
         </div>
       </div>
     </div>
+    <div class="section">
+      <div class="one-centered-column text-center section-quote">
+        <h2>“Customers don’t care how much time something takes to build. They care only if it serves their needs.”</h2>
+        <h5>— ERIC RIES —</h5>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -99,5 +105,18 @@
 .sidebar h3,
 .sidebar h4 {
   margin-bottom: 1.6rem;
+}
+.section-quote{
+  margin: 6vw auto;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 6vw
+}
+.section-quote h2{
+  font-size: 26px;
+}
+.section-quote h5{
+  color: #e54a35;
+  margin-top: 2rem;
 }
 </style>
