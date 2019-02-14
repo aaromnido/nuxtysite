@@ -49,7 +49,7 @@
 
 <style scoped>
 .header {
-  padding: 110px 0;
+  padding: 110px 8vw;
   display: flex;
   justify-content: space-between;
 }

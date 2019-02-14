@@ -24,7 +24,6 @@ export default {
   .site-container{
     width: auto;
     max-width: 100%;
-    padding: 0 8vw;
   }
 </style>
 
