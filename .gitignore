@@ -1,0 +1,8 @@
+
+# Cache files, generates by Zephir
+.temp/
+.libs/
+
+# Object files, generates by linker
+*.json.gz
+prepros-6.config
