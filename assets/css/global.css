@@ -44,9 +44,6 @@ h1, h2, h4 {
   font-size: 32px;
   line-height: 1.6em; }
 
-h2 {
-  font-size: 28px; }
-
 h3 {
   font-family: "Niramit", times, serif;
   color: #e54a35;
@@ -76,6 +73,13 @@ h4 {
     margin-bottom: 2rem;
     line-height: 1.6em; }
 
+.content-full h5 {
+  color: #e54a35;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px; }
+
 .sidebar {
   -ms-flex-preferred-size: 30%;
   flex-basis: 30%; }
@@ -97,3 +101,26 @@ h4 {
   .button.button-outline:hover {
     color: white;
     background: #081b33; }
+
+.mb-6 {
+  margin-bottom: 6vw; }
+
+.content-full {
+  width: 100%; }
+
+.column-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .column-3 .column {
+    border-top: 1px solid rgba(8, 27, 51, 0.3);
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 2rem 0 0 0;
+    margin: 0 1rem;
+    margin-top: 2rem; }
+  .column-3 .column:first-child {
+    margin-left: 0; }
+  .column-3 .column:last-child {
+    margin-right: 0; }

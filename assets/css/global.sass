@@ -48,9 +48,6 @@ h1, h2, h4
     font-size: 32px
     line-height: 1.6em
 
-h2
-    font-size: 28px
-
 h3
     font-family: "Niramit", times, serif
     color: $red
@@ -69,13 +66,21 @@ h4
     display: flex
     justify-content: space-between
 
-.content
+.content,
     flex-basis: 60%
     margin-right: 2rem
 
     h1, h2, h3, h4, h5, p
         margin-bottom: 2rem
         line-height: 1.6em
+
+.content-full
+    h5
+        color: $red
+        margin-bottom: 1rem
+        text-transform: uppercase
+        font-size: 15px
+        letter-spacing: 1px
 
 .sidebar
     flex-basis: 30%
@@ -98,3 +103,25 @@ h4
     &.button-outline:hover
         color: white
         background: $black
+
+.mb-6
+    margin-bottom: 6vw
+
+.content-full
+    width: 100%
+
+.column-3
+    display: flex
+
+    .column
+        border-top: 1px solid transparentize($black, .7)
+        flex: 1
+        padding: 2rem 0 0 0
+        margin: 0 1rem
+        margin-top: 2rem
+
+    .column:first-child
+        margin-left: 0
+
+    .column:last-child
+        margin-right: 0

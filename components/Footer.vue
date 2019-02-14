@@ -24,7 +24,7 @@
 
 <style scoped>
 .footer {
-  border-top: 1px solid rgba(128, 128, 128, 0.8);
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
   padding: 50px 8vw 180px 8vw;
   margin-top: 130px;
   display: flex;
