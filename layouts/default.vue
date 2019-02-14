@@ -1,21 +1,31 @@
 <template>
-  <div class="container">
+  <div class="site-container">
     <Header/>
     <main class="main">
-      <nuxt />
+      <nuxt/>
     </main>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
-    Header, Footer
+    Header,
+    Footer
   }
-}
+};
 </script>
+
+<style scoped>
+  .site-container{
+    width: auto;
+    max-width: 100%;
+    padding: 0 8vw;
+  }
+</style>
+
 
