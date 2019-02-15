@@ -77,6 +77,14 @@
         <h5>— ERIC RIES —</h5>
       </div>
     </div>
+    <div class="section">
+      <div class="one-centered-column text-center section-form">
+        <h2>Let's Chat</h2>
+        <p>Use the form below to contact us regarding your development enquiry. Please be as detailed as possible. Include your industry along with any specific document requests. To help us best service your enquiry, we recommend that you first describe the issue you’re having before telling us what you want to achieve. You may also email or call us to make an appointment.</p>
+        <p>For job opportunities, please email us your resume. We’re always looking for new and exceptional talent to lead the firm into uncharted fields of practice.</p>
+        <img src="@/assets/images/dummy-form.png" alt="">
+      </div>
+    </div>
   </section>
 </template>
 
@@ -118,5 +126,13 @@
 .section-quote h5{
   color: #e54a35;
   margin-top: 2rem;
+}
+.section-form{
+  padding: 6vw;
+  padding-bottom: 0;
+}
+.section-form p{
+  text-align: left;
+  font-size: 14px;
 }
 </style>
