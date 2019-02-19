@@ -19,7 +19,7 @@ html
     -moz-osx-font-smoothing: grayscale
     -webkit-font-smoothing: antialiased
     box-sizing: border-box
-    background: linear-gradient(white, $grey-lighter),
+    background: linear-gradient(white, $grey-lighter)
 
 *,
 *:before,
@@ -61,6 +61,15 @@ h4
     font-size: 19px
     font-weight: 300
 
+.site-container
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+    .main
+        flex: 1
+        padding-bottom: 130px
 
 .section
     padding-left: 8vw
