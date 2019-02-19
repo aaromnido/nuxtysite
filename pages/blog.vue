@@ -8,7 +8,7 @@
     </div>
     <div class="section">
       <div class="content">
-        <p class="text-center">No blog posts yet++</p>
+        <p class="text-center">No blog posts yet</p>
       </div>
     </div>
   </section>
@@ -35,8 +35,5 @@
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
-  }
-  .content{
-    border: 1px solid red;
   }
 </style>
