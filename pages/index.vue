@@ -7,7 +7,7 @@
       </h1>
     </div>
     <div class="section mb-6">
-      <div class="content">
+      <div class="content-left">
         <h2>Building products from scratch since 2015</h2>
         <p>Headquartered in Berkeley, our firm specializes in developing products from the seed of an idea to the final working product. Our motto is idea to launch in 1 month. As previous startup founders ourselves, we understand the need for speed without sacrificing quality. Let us handle your development while you figure out the market, go to launch strategy, and talk to your customers. Since we're previous startup founders too, we can also help a little with that.</p>
 

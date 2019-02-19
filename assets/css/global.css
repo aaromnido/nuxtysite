@@ -87,7 +87,7 @@ h4 {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.content {
+.content-left {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
   margin-right: 2rem; }
