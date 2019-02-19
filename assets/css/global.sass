@@ -78,8 +78,12 @@ h4
     justify-content: space-between
 
 .content
-    flex-basis: 100%
-    margin: auto
+    width: 100%
+    h3
+        color: $black
+        font-family: "Merriweather", times, serif
+        font-size: 40px
+        font-weight: 300
 
 .content-left
     flex-basis: 60%
@@ -103,6 +107,39 @@ h4
 .sidebar
     flex-basis: 30%
 
+.row
+    display: flex
+    flex-basis: 100%
+    margin: auto
+    justify-content: space-between
+    margin-bottom: 20px
+    >*
+        width: 100%
+
+.column-1-2,
+.column-1-3,
+.column-2-3,
+.column-2-4,
+.column-3-4
+    flex-basis: 50%
+    margin: 0 20px
+    &:first-child
+        margin-left: 0
+    &:last-child
+        margin-right: 0
+
+.column-1-3
+    flex-basis: 33%
+
+.column-2-3
+    flex-basis: 66%
+
+.column-1-4
+    flex-basis: 25%
+
+.column-3-4
+    flex-basis: 75%
+
 .button
     display: inline-block
     background: $black
@@ -121,6 +158,9 @@ h4
     &.button-outline:hover
         color: white
         background: $black
+
+.img-responsive
+    max-width: 100%
 
 .mb-6
     margin-bottom: 6vw
@@ -150,3 +190,24 @@ h4
 .one-centered-column
     max-width: 55vw
     margin: auto
+
+.hero-second-level
+    background-size: cover
+    background-position: center
+    text-align: center
+    padding: 6vw 8vw
+    margin-bottom: 70px
+
+.hero-second-level h1
+    font-family: "Merriweather", times, serif
+    font-weight: 300
+    font-size: 4.5vw
+    line-height: 1.1em
+
+.hero-second-level h4
+    font-family: 'Niramit', 'Helvetica Neue', Arial, sans-serif
+    color: #e54a35
+    margin-bottom: 1rem
+    font-size: 13px
+    font-weight: 700
+    letter-spacing: 2px
