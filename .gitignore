@@ -6,3 +6,4 @@
 # Object files, generates by linker
 *.json.gz
 prepros-6.config
+.auth
