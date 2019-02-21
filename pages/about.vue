@@ -111,7 +111,7 @@
             </div>
           </div><!-- / row -->
           
-          <h2>Full Stack Designer</h2>
+          <h2>Full-tack Designer</h2>
           <div class="row media">
             <div class="column-1-4">
               <img src="https://pbs.twimg.com/profile_images/987222302906568704/XzFfyUdb_400x400.jpg" alt="Patrick Lu" class="img-responsive" width="176">
@@ -151,6 +151,9 @@
                     </li>
                     <li>
                       <a href="https://dribbble.com/aaromnido" target="_blank">Dribbble</a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/aaromnido" target="_blank">GitHub</a>
                     </li>
                     <li>
                       <a href="mailto:aaromnido@gmail.com">Email</a>
