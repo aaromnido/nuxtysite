@@ -29,13 +29,13 @@
         </a>
       </div>
       <div class="nav-item collection">
-        <nuxt-link to="/about" class="nav-item-page">
-          <span>About</span>
+        <nuxt-link to="/portfolio" class="nav-item-page">
+          <span>Portfolio</span>
         </nuxt-link>
       </div>
       <div class="nav-item collection">
-        <nuxt-link to="/portfolio" class="nav-item-page">
-          <span>Portfolio</span>
+        <nuxt-link to="/about" class="nav-item-page">
+          <span>About</span>
         </nuxt-link>
       </div>
       <div class="nav-item collection">
@@ -80,7 +80,8 @@
   transition: all 0.4s ease-out;
   margin-bottom: 0;
 }
-.nav-item a:hover {
+.nav-item a:hover,
+.nuxt-link-exact-active span {
   color: #e54a35;
 }
 @media (max-width: 1220px) {

@@ -15,7 +15,7 @@
 
         <p>Get in touch with us to set up a consultation, or use the contact form at the bottom of this page to enquire whether our services are right for you.</p>
 
-        <nuxt-link to="/about" class="button button-outline">Learn more</nuxt-link>
+        <nuxt-link to="/about" class="button button-outline mt-2">Learn more</nuxt-link>
       </div>
       <div class="sidebar">
         <h2>Contact</h2>
