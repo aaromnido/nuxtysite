@@ -5,44 +5,20 @@ import '../assets/css/global.css'
 
 import _6f6c098b from '../layouts/default.vue'
 
-const layouts = {
-  "_default": _6f6c098b
-}
+const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {
-    "title": "0 to launch in 3 months",
-    "meta": [{
-      "charset": "utf-8",
-      "robots": "noindex, nofollow"
-    }, {
-      "name": "viewport",
-      "content": "width=device-width, initial-scale=1"
-    }, {
-      "hid": "description",
-      "name": "description",
-      "content": "Our site is a software development site where people come to us to hire us for projects."
-    }],
-    "link": [{
-      "rel": "icon",
-      "type": "image\u002Fx-icon",
-      "href": "https://static1.squarespace.com/static/590f9f02ebbd1a0ad377f7ba/t/5910ebe28419c250a7e121d9/favicon.ico"
-    }],
-    "style": [],
-    "script": []
-  },
+  head: {"title":"0 to launch in 3 months","meta":[{"charset":"utf-8"},{"robots":"noindex, nofollow"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Our site is a software development site where people come to us to hire us for projects."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"https:\u002F\u002Fstatic1.squarespace.com\u002Fstatic\u002F590f9f02ebbd1a0ad377f7ba\u002Ft\u002F5910ebe28419c250a7e121d9\u002Ffavicon.ico"}],"style":[],"script":[]},
 
   render(h, props) {
-    const loadingEl = h('NuxtLoading', {
-      ref: 'loading'
-    })
+    const loadingEl = h('NuxtLoading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
     const templateEl = h('div', {
       domProps: {
         id: '__layout'
       },
       key: this.layoutName
-    }, [layoutEl])
+    }, [ layoutEl ])
 
     const transitionEl = h('transition', {
       props: {
@@ -57,7 +33,7 @@ export default {
           })
         }
       }
-    }, [templateEl])
+    }, [ templateEl ])
 
     return h('div', {
       domProps: {
@@ -125,8 +101,6 @@ export default {
     },
 
     setLayout(layout) {
-      if (layout && typeof layout !== 'string') throw new Error('[nuxt] Avoid using non-string value as layout property.')
-
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }
