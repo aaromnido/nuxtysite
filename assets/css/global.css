@@ -56,6 +56,30 @@ h4 {
   font-size: 19px;
   font-weight: 300; }
 
+.hero {
+  text-align: center;
+  padding: 3.3vw 8vw;
+  margin-bottom: 70px; }
+
+.hero h1 {
+  font-family: "Merriweather", times, serif;
+  font-weight: 300;
+  font-size: 4.5vw;
+  line-height: 1.1em; }
+
+.hero h4 {
+  font-family: 'Niramit', 'Helvetica Neue', Arial, sans-serif;
+  color: #e54a35;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+.sidebar h2,
+.sidebar h3,
+.sidebar h4 {
+  margin-bottom: 1.6rem; }
+
 .site-container {
   min-height: 100vh;
   display: -webkit-box;
@@ -202,6 +226,12 @@ h4 {
 .text-center {
   text-align: center; }
 
+.border-top {
+  border-top: 1px solid #c4c4c4; }
+
+.border-bottom {
+  border-bottom: 1px solid #c4c4c4; }
+
 .content-full {
   width: 100%; }
 
@@ -246,3 +276,36 @@ h4 {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px; }
+
+.media {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px 0; }
+
+.media:last-child {
+  border-bottom: none; }
+
+.media h5 {
+  font-family: "Merriweather", times, serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1em;
+  margin-bottom: 1em; }
+
+.media h6 {
+  font-family: 'Niramit', 'Helvetica Neue', Arial, sans-serif;
+  color: #e54a35;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.media p {
+  font-size: 14px;
+  margin-bottom: 1.5em; }
+
+.details ul {
+  padding-left: 1.5em; }
+
+.details li,
+.details p {
+  font-size: 13px; }

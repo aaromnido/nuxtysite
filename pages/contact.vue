@@ -44,51 +44,6 @@
 </template>
 
 <style scoped>
-  .hero {
-    text-align: center;
-    padding: 6vw 8vw;
-    margin-bottom: 70px;
-  }
-  .hero h1 {
-    font-family: "Merriweather", times, serif;
-    font-weight: 300;
-    font-size: 4.5vw;
-    line-height: 1.1em;
-  }
-  .hero h4 {
-    font-family: 'Niramit', 'Helvetica Neue', Arial, sans-serif;
-    color: #e54a35;
-    margin-bottom: 1rem;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-  .sidebar h2,
-  .sidebar h3,
-  .sidebar h4 {
-    margin-bottom: 1.6rem;
-  }
-  .section-quote{
-    margin: 6vw auto;
-    border-top: 1px solid rgba(128, 128, 128, 0.3);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
-    padding: 6vw
-  }
-  .section-quote h2{
-    font-size: 26px;
-  }
-  .section-quote h5{
-    color: #e54a35;
-    margin-top: 2rem;
-  }
-  .section-form{
-    padding: 6vw;
-    padding-bottom: 0;
-  }
-  .section-form p{
-    text-align: left;
-    font-size: 14px;
-  }
   .apointment .button{
     margin: 2rem 0;
   }

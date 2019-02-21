@@ -100,23 +100,7 @@
   }
   .hero h1 {
     color: white;
-    font-family: "Merriweather", times, serif;
     font-weight: 400;
-    font-size: 4.5vw;
-    line-height: 1.1em;
-  }
-  .hero h4 {
-    font-family: 'Niramit', 'Helvetica Neue', Arial, sans-serif;
-    color: #e54a35;
-    margin-bottom: 1rem;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-  .sidebar h2,
-  .sidebar h3,
-  .sidebar h4 {
-    margin-bottom: 1.6rem;
   }
   .section-quote{
     margin: 6vw auto;
