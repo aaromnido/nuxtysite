@@ -312,3 +312,11 @@ h4 {
 .details li,
 .details p {
   font-size: 13px; }
+
+.page-enter-active, .page-leave-active {
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s; }
+
+.page-enter, .page-leave-to {
+  opacity: 0; }

@@ -1,2 +1,0 @@
-exports.ids=[2],exports.modules={49:function(e,t,n){"use strict";n.r(t);var o=n(1),component=Object(o.a)({},function(){var e=this.$createElement;return(this._self._c||e)("section",[this._ssrNode('<div class="hero-second-level"><h4>BLOG</h4> <h1>\n      Thoughts on Business, Startups, Engineering, &amp; Design.\n    </h1></div> <div class="section"><div class="content"><p class="text-center">No blog posts yet</p></div></div>')])},[],!1,null,null,"a28d032c");t.default=component.exports}};
-//# sourceMappingURL=930e039dd7b1bfb22bf5.js.map
