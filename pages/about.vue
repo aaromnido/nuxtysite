@@ -110,59 +110,8 @@
               </div><!-- / details -->
             </div>
           </div><!-- / row -->
-          
-          <h2>Full-tack Designer</h2>
-          <div class="row media">
-            <div class="column-1-4">
-              <img src="https://pbs.twimg.com/profile_images/987222302906568704/XzFfyUdb_400x400.jpg" alt="Patrick Lu" class="img-responsive" width="176">
-            </div>
-            <div class="column-3-4">
-              <h6>UX/UI Engineer</h6>
-              <h5>Fernando Val</h5>
-              <p>I'm an experienced web designer. A renaissance kind of unicorn that is capable of creating a brand, draw illustrations, design a product from user experience to a user interface and build whole the complete Front End. Even in some cases, I'm capable to craft the backend.<br>
-              I'm a passionate person, a team player, husband and father of two kids, as well a Tesla lover, Celtic music melomaniac,  soccer mad supporter, and also a former soccer player.</p>
-              <div class="row details">
-                <div class="column-1-3">
-                  <h5>Education</h5>
-                  <p>
-                    <strong>UCM - Madrid</strong><br>
-                    Fine Arts<br>
-                    <strong>ITA - Zaragoza</strong><br>
-                    User Experience Design
-                  </p>
-                </div>
-                <div class="column-2-3">
-                  <h5>Previous Experience</h5>
-                  <ul>
-                    <li>Plastic SCM - Valladolid, Spain</li>
-                    <li>Homestays - Dublin, Ireland</li>
-                  </ul>
-                </div>
-              </div><!-- / details -->
-              <div class="row details">
-                <div class="column-3-3">
-                  <h5>Keep in touch</h5>
-                  <ul>
-                    <li>
-                      <a href="http://fernandoval.es/" target="_blank">Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/aaromnido/" target="_blank">Linkedin</a>
-                    </li>
-                    <li>
-                      <a href="https://dribbble.com/aaromnido" target="_blank">Dribbble</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/aaromnido" target="_blank">GitHub</a>
-                    </li>
-                    <li>
-                      <a href="mailto:aaromnido@gmail.com">Email</a>
-                    </li>
-                  </ul>
-                </div>
-              </div><!-- / details -->
-            </div>
-          </div><!-- / row -->
+
+
         </div><!-- / one-centered-column -->
       </div><!-- / content -->
     </div><!-- / section -->
